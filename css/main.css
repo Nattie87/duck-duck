@@ -28,7 +28,7 @@ header {
 }
 
 h1, h2 {
-  color: #fff;
+  color: black;
 }
 
 p {
@@ -43,9 +43,10 @@ h2 {
 
 }
 
-img {
-  max-width: 100%;
-}
+/*img{
+  min-height:100%
+}*/
+
 
 h3 {
   margin: 0 0 1em 0;
@@ -157,4 +158,18 @@ footer {
   padding: 0;
   margin: 0;
   font-size: 0.9em;
+}
+
+
+.thumbnail {
+  width: 100%;
+  overflow: hidden;
+}
+
+img {
+  -webkit-transition: all 0.5s ease;
+}
+
+img:hover {
+  transform: scale(1.3);
 }
